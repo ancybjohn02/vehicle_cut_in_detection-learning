@@ -1,5 +1,3 @@
-# <Copyright 2019, Argo AI, LLC. Released under the MIT license.>
-
 """This module evaluates the forecasted trajectories against the ground truth."""
 
 import math
