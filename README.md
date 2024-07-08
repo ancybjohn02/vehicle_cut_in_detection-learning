@@ -62,6 +62,11 @@ Two datasets are used in this project:
 2. Run the `main.py` file
 3. Provide a video file or camera feed as input to the `detect_cut_in` function.
 
+**Project Presentation**
+------------------------
+[Vehicle cut-in detection .pptx](https://github.com/user-attachments/files/16132086/Vehicle.cut-in.detection.pptx)
+
+
 **Note**
 -----
 
