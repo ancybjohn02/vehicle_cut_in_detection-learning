@@ -10,29 +10,29 @@ This project aims to detect vehicle cut-ins using computer vision and machine le
 -------------------
 
 The project folder structure is as follows:
-vci/
-main.py
-speed_acc_dist.py
-trajectory_pred/
-scs/
-datascripts/
-dataloader_nuscenes.py
-dataset_argoverse.py
-modeling/
-decoder.py
-global_graph.py
-motion_refinement.py
-vectornet.py
-utils/
-config.py
-evaluation_metrics.py
-loss.py
-utils.py
-visualise_nuscenes.py
-eval.py
-main_model.py
-test.py
-train.py
+vci
+├── main.py
+├── speed_acc_dist.py
+├── trajectory_pred
+│  ├── scs
+│  │  ├── datascripts
+│  │  │  ├── dataloader_nuscenes.py
+│  │  │  └── dataset_argoverse.py
+│  │  ├── modeling
+│  │  │  ├── decoder.py
+│  │  │  ├── global_graph.py
+│  │  │  ├── motion_refinement.py
+│  │  │  └── vectornet.py
+│  │  ├── utils
+│  │  │  ├── config.py
+│  │  │  ├── evaluation_metrics.py
+│  │  │  ├── loss.py
+│  │  │  ├── utils.py
+│  │  │  └── visualise_nuscenes.py
+│  │  ├── eval.py
+│  │  ├── main_model.py
+│  │  ├── test.py
+│  │  └── train.py
 
 **Dataset Description**
 ---------------------
