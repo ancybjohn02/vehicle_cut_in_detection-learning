@@ -9,9 +9,9 @@ This project aims to detect vehicle cut-ins using computer vision and machine le
 **Folder Structure**
 -------------------
 
-The project folder structure is as follows:
-.
-vci
+The project folder structure is as follows:                  
+.                                      
+vci                              
 ├── main.py          
 ├── speed_acc_dist.py        
 ├── trajectory_pred        
