@@ -1,5 +1,5 @@
-**Vehicle Cut-in Detection using Nuscenes and Argoverse Datasets**
-============================================================
+# **Vehicle Cut-in Detection using Nuscenes and Argoverse Datasets**
+===========================================================================================================
 
 
 https://github.com/ancybjohn02/vehicle_cut_in_detection-learning/assets/116482955/a53ad57d-b92d-4b11-9c52-bafa0468d430
@@ -9,7 +9,7 @@ https://github.com/ancybjohn02/vehicle_cut_in_detection-learning/assets/11648295
 **Overview**
 -----------
 
-This project aims to detect vehicle cut-ins using computer vision and machine learning techniques. The project utilizes two popular autonomous driving datasets: Nuscenes and Argoverse. The goal is to develop a robust and accurate system that can detect cut-ins in real-time, enhancing road safety and autonomous vehicle performance.
+This project focuses on detecting vehicle cut-ins by leveraging computer vision and machine learning techniques with two renowned autonomous driving datasets: Nuscenes and Argoverse. Our goal is to develop a robust, real-time system that enhances road safety and autonomous vehicle performance. Key components include a Trajectory Prediction module that forecasts future vehicle trajectories using deep learning, a Speed, Acceleration, and Distance Calculation module utilizing the Argoverse dataset, and a Cut-in Detection module that identifies cut-ins based on calculated speed, acceleration, and distance metrics.
 
 **Folder Structure**
 -------------------
@@ -43,7 +43,7 @@ vci
 **Dataset Description**
 ---------------------
 
-Two datasets are used in this project:
+Two datasets are used in this project, they are:
 
 1. **Nuscenes**: A public autonomous driving dataset containing 1000 scenes, each 20 seconds long, with 360-degree camera and lidar data.
 2. **Argoverse**: A public autonomous driving dataset containing 324 scenes, each 30 seconds long, with 360-degree camera and lidar data.
@@ -64,13 +64,16 @@ Two datasets are used in this project:
 
 **Project Presentation**
 ------------------------
+
+Here is the presentation for our project, detailing our approach to detecting vehicle cut-ins using Nuscenes and Argoverse datasets to enhance road safety and autonomous vehicle performance.
+
 [Vehicle cut-in detection .pptx](https://github.com/user-attachments/files/16132086/Vehicle.cut-in.detection.pptx)
 
 
 **Note**
 -----
 
-This project is a work in progress, and the code is subject to change. Please report any issues or suggestions to the maintainers.
+This project is a work in progress, and the code may change. Please report any issues or suggestions to the maintainers to help us improve the project. Open-source contributions help us enhance the system, benefiting the community.
 
 **Acknowledgments**
 ---------------
