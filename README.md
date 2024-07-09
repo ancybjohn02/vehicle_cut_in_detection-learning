@@ -69,6 +69,12 @@ Here is the presentation for our project, detailing our approach to detecting ve
 
 [Vehicle cut-in detection .pptx](https://github.com/user-attachments/files/16132086/Vehicle.cut-in.detection.pptx)
 
+**Project Report**
+--------------------
+
+[Vehicle cut-in detection_Tech Geeks-1.pdf](https://github.com/user-attachments/files/16140442/Vehicle.cut-in.detection_Tech.Geeks-1.pdf)
+
+
 
 **Note**
 -----
