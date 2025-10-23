@@ -52,10 +52,21 @@ Two datasets are used in this project, they are:
 **Project Components**
 ---------------------
 
-1. **Trajectory Prediction**: A module that predicts the future trajectory of vehicles using a deep learning model.
-2. **Speed, Acceleration, and Distance Calculation**: A module that calculates the relative speed, acceleration, and distance between vehicles using the Argoverse dataset.
-3. **Cut-in Detection**: A module that detects cut-ins based on the calculated speed, acceleration, and distance values.
-
+1. **Trajectory Prediction**:
+   - Predicts future vehicle trajectories using deep learning architectures such as LSTM and Transformer-based models.
+   - Incorporates past trajectory data, heading angle, and velocity profiles to forecast motion up to several seconds ahead.
+   - Trained and evaluated using the NuScenes dataset, which provides high-resolution annotated trajectories for multiple agents in urban traffic scenes.
+     
+2.  **Speed, Acceleration, and Distance Calculation**:
+   - Computes the relative speed, acceleration, and inter-vehicle distance between the ego vehicle and surrounding vehicles.
+   - Uses trajectory data from the Argoverse Motion Forecasting Dataset, leveraging its accurate localization and temporal synchronization features.
+   - Provides a continuous dynamic state profile that serves as an input for real-time risk assessment.
+     
+3. **Cut-in Detection**:
+   - Detects cut-in maneuvers based on the relative motion metrics derived from the previous module.
+   - Utilizes threshold-based and learning-based models (e.g., Random Forest, CNN-LSTM hybrids) to determine potential cut-in events.
+   - Integrates visual cues (bounding box positions, lane markings, and heading vectors) to improve detection accuracy in complex traffic scenes.
+     
 **How to Run**
 --------------
 
