@@ -9,7 +9,8 @@ https://github.com/ancybjohn02/vehicle_cut_in_detection-learning/assets/11648295
 **Overview**
 -----------
 
-This project focuses on detecting vehicle cut-ins by leveraging computer vision and machine learning techniques with two renowned autonomous driving datasets: Nuscenes and Argoverse. Our goal is to develop a robust, real-time system that enhances road safety and autonomous vehicle performance. Key components include a Trajectory Prediction module that forecasts future vehicle trajectories using deep learning, a Speed, Acceleration, and Distance Calculation module utilizing the Argoverse dataset, and a Cut-in Detection module that identifies cut-ins based on calculated speed, acceleration, and distance metrics.
+This project focuses on detecting vehicle cut-ins by leveraging advanced computer vision and machine learning techniques to enhance road safety and improve the decision-making capabilities of autonomous vehicles. By utilizing two renowned autonomous driving datasets, NuScenes and Argoverse, the system is trained and evaluated under realistic traffic scenarios to ensure robustness and reliability. The proposed framework integrates multiple components, including a Trajectory Prediction Module that forecasts future vehicle movements using deep learning models, a Speed, Acceleration, and Distance Calculation Module that derives dynamic motion parameters from trajectory data, and a Cut-in Detection Module that identifies potential cut-in events based on these motion cues. Together, these modules work cohesively to build a real-time, intelligent system capable of detecting risky lane-change behaviors, thereby contributing to safer and more efficient autonomous driving systems.
+
 
 **Folder Structure**
 -------------------
